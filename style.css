@@ -1,0 +1,401 @@
+/* profile page css */
+.cotentsts{
+    padding: 0;
+    justify-content: center;
+    margin-top: 3em;
+}
+
+
+*{
+    margin: 0em;
+    padding: 0em;
+}
+
+.main{
+    background-color: #9e9d9d;
+    padding-bottom: 2em;
+}
+.logios h6{
+    font-size: 1.5em;
+    
+}
+.logios span{
+    color: #9e9d9d;
+    font-size: 1.3em;
+    
+}
+a i{
+    margin: 0em 1em;
+}
+.suns{
+    display: none;
+}
+.cotents{
+    margin-top: 5em;
+}
+/* profile section start */
+.profile-section{
+background-color: white;
+border-radius:0.5em;
+height: 30em;
+}
+.profilerow{
+padding-top: 1em;
+}
+.profilepic img{
+    width: 3em;
+    height: 3em;
+    border-radius: 5em;
+}
+.procon h6{
+    margin-left: 1em;
+font-size: 0.8em;
+margin-top: 0.5em;
+}
+.procon p{
+    margin-left: 1em;
+    font-size: 0.8em;
+margin-top: -0.7em;
+color: grey;
+}
+.proicon i{
+    
+    margin-top: 0.7em;
+    color: #686767;
+
+}
+p{
+    font-size: 0.8em;
+}
+.hrrow{
+    padding: 0em 1em;
+}
+.hrrow hr{
+    margin-top: 1em;
+    color: #781414;
+}
+.proaddress i{
+    margin-left: 1em;
+    color: #686767;
+}
+.proaddress p{
+    font-size: 0.8em;
+    color: grey;
+
+}
+.contentrow2 p{
+    font-size: 0.8em;
+    color: grey;
+}
+.contentrow2 h6{
+    text-align: end;
+    
+}
+.profilepic i{
+    color: gray;
+    font-size: 1.5em;
+    margin-left: 0.5em;
+    margin-top: 0.5em;
+}
+/* profile section end */
+/* maincontent-section start */
+.maincontent-section{
+    margin: 0em 2.5em;
+    border-radius: 0.5em;
+    height: auto;
+}
+.proinput input{
+    margin-left: -1em;
+    border-radius: 3em;
+    height: 3.1em;
+    background-color: rgb(204, 204, 204);
+    color: white;
+    border: 1px solid grey;
+}
+.proinput input::placeholder{
+    color: rgb(90, 90, 90);
+}
+.hrrow1 ul li{
+    display: inline-block;
+    margin: 0em 0.6em;
+}
+.hrrow1 ul li span{
+    color: grey;
+    text-transform: capitalize;
+    font-size: 0.8em;
+
+}
+.hrrow1 i{
+    margin-right: 0.5em;
+    color: grey;
+}
+.mainsec{
+    background-color: white;
+    border-radius: 0.5em;
+    padding: 0.3em;
+}
+.mainsec1{
+    background-color: white;
+    border-radius: 0.5em;
+   margin-top: 1.5em;
+   padding-bottom: 1em;
+}
+.profilerow1{
+    padding-top: 1.5em;
+}
+.profilepic1 img{
+    width: 3em;
+    height: 3em;
+    border-radius: 5em;
+    margin-left: 1em;
+}
+.profilepic1{
+    padding-left: 2em;
+}
+.procon1 h6{
+    color: grey;
+    font-size: 0.8em;
+}
+.procon1 p{
+    color: grey;
+    font-size: 0.8em;
+    margin-top: -0.5em;
+}
+.proicon2 i{
+color:rgba(5, 95, 95, 0.5);
+background-color: rgb(6, 235, 235,0.3);
+padding: 0.4em;
+border-radius: 5em;
+}
+.hrrow3{
+    padding: 0em 1em;
+}
+.hrrow3 p{
+    font-size: 0.9em;
+}
+.hrrow3 img{
+    height: 40em;
+    margin-left: 0.7em;
+    border-radius: 2em;
+
+    
+}
+
+.likecomment{
+    display: flex;
+    justify-content: space-around;
+}
+
+.shares{
+    margin-top: 20em;
+}
+.commenticon{
+    margin-left: 8em;
+
+}
+.shareicon{
+    margin-left: 1em;
+
+}
+.comment2 i{
+    margin-top: 1em;
+    color: #a7a7a7;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+.comment1{
+    padding-left: 2em;
+}
+.comment1 i{
+    margin-top: 0.7em;
+    color: #a7a7a7;
+    font-size: 1.5em;
+    cursor: pointer;
+    margin-right: 1em;
+}
+/* .comment1 i:hover::after{
+    content: "hello";
+    background-color: #a7a7a7;
+    color: wheat;
+    top: 10em;
+    margin-left: 20em;
+    margin-top: 29em;
+} */
+
+
+/* maincontent-section end */
+/* Adds&friend-section start */
+
+.frirow{
+    padding-top: 1em;
+    background-color: white;
+    border-radius: 0.5em;
+    padding-bottom: 1em;
+}
+.frirow img{
+    margin-left: 0.8em;
+    border-radius: 1.5em;
+    height: 15em;
+    margin-bottom: 2em;
+}
+.frindsec1{
+    padding: 0.5em;
+    margin-top: 2em;
+    background-color: white;
+    border-radius: 0.5em;
+    padding-left: 0.8em;
+}
+.frirow3 h6{
+    margin-left: 1em;
+color: grey;
+}
+.frirow4 p{
+    text-align: left;
+    margin-left: 2em;
+}
+.profilerow3{
+    padding-top: 2em;
+}
+.profilepic2 img{
+    width: 2em;
+    height: 2em;
+    border-radius: 5em;
+}
+.procon4 h6{
+    color: grey;
+    font-size: 0.8em;
+}
+.procon4 p{
+    color: grey;
+  margin-top: -0.3em;
+    font-size: 0.8em;
+}
+
+/* Adds&friend-section end */
+
+
+
+
+/* Responsiveness code start */
+
+/* Code responsive for 990 */
+@media (max-width:991px){
+    .forms{
+        display: none;
+    }
+    .profile-section{
+        margin-bottom: 2em;
+    }
+    .maincontent-section{
+        margin: 2em 0em 0em 0em;
+        
+    }
+    .profilepic img{
+        margin-left: 2em;
+    }
+    .profilepic1 img{
+        margin-left: 2em;
+    }
+    .Addsfriend-section{
+        display: none;
+    }
+    .hrrow3 p{
+        margin-left: 2em;
+        margin-top: 1em;
+    }
+    .hrrow1 ul li{
+        margin: 0em 2.2em;
+    }
+    .profile-section {
+        padding: 0em 2em;
+    }
+}
+/* Code responsive for 767px */
+@media (max-width:767px){
+    .contentrow2 h6{
+        text-align: center;
+        margin-left: -2em;
+    }
+    .profilepic img{
+        margin-left: 1em;
+    }
+    .hrrow1 ul li{
+        margin: 0em 1em;
+    }
+}
+@media (max-width:575px) {
+    .d-md-none{
+        display: none;
+    }
+    .procon h6{
+        margin-left: 7em;
+    font-size: 0.8em;
+    margin-top: -2.5em;
+    }
+    .procon p {
+        margin-left: 7em;
+    }
+    .proicon i{
+        margin-left: 14em;
+
+    }
+    .proaddress p{
+        margin-left: 4em;
+        margin-top: -2em;
+    }
+    .contentrow2 h6{
+        margin-top: -2em;
+        margin-left: 5em;
+    }
+    .proinput input{
+        margin: 1em 0em 0em 0em;
+
+    }
+    .proicon{
+    margin-top: -2em;
+    }
+    .profilerow1{
+        padding: 0em;
+        margin: 0em;
+    }
+    .profilerow2{
+        padding: 0em;
+        margin: 0em;
+    }
+    .proicon{
+        display: none;
+    }
+    .procon1 h6 {
+        margin-left: 8em;
+        margin-top: -3.5em;
+    }
+    .profilepic1 img{
+        margin-top: 2em;
+    }
+    .procon1 p{
+        margin-left: 8em;
+
+    }
+    .proicon2 i{
+        margin-left: 15em;
+    }
+    .mainsec1{
+        padding-right: 0.2em;
+    }
+    .proicon2{
+        margin-top: -2em;
+    }
+    .hrrow3 img{
+        height: 25em;
+    }
+    .proinput{
+        padding: 0em 1em;
+    }
+    .commenticon{
+        margin-left: 4em;
+    }
+    
+}
+
+
+/* Responsiveness code emd */

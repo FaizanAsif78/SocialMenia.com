@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Attached Css -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- Boostrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Fontawsome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fav icon code -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./imgs/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./imgs/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <title>SocialMenia</title>
+</head>
+
+<body>
+
+
+    <div class="main">
+        <!-------------------------------------- navbar Start -------------------------------------->
+
+        <div class="container-fluid m-0 p-0">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white" id="nav">
+                <div class="container-fluid">
+                    <a class="navbar-brand mx-5 logios " href="./index.html">
+                        <h6 class="logoclr">Social<span>Menia</span></h6>
+                    </a>
+                    <form class="d-flex d-md-none d-sm-none">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end " id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-2 mb-lg-0 ">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">
+                                    <i class="fa-solid fa-sun d-none ions" onclick="dayss()" id="days"></i>
+                                    <i class="fa-solid fa-moon d-block ions " onclick="nightss()" id="nights"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#"><i
+                                        class="fa-solid fa-message ions"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#"><i
+                                        class="fa-solid fa-bell ions"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#"><i
+                                        class="fa-solid fa-circle-question ions"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <div class="dropdown me-5">
+                                    <a class="btn  dropdown-toggle" style="background-color:#808080; color: white ;"
+                                        href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Apple Icecream
+                                    </a>
+
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+
+
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-------------------------------------- navbar End -------------------------------------->
+        <!-------------------------------------- Home Body Start -------------------------------------->
+
+        <div class="container cotents ">
+            <div class="row m-0 p-0 cotentsts ">
+
+                <div class="col-lg-3 col-md-12 profile-section">
+                    <div class="row profilerow">
+                        <div class="col-lg-2 col-md-2 col-sm-2 profilepic">
+                            <img src="./imgs/avatar.png" alt="">
+                        </div>
+                        <div class="col-lg-7 col-md-7 col-sm-7 procon">
+                            <h6>Muhammad faizan</h6>
+                            <p>Lorem </p>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-2 proicon">
+                            <i id="geticon" class="fa-sharp fa-solid fa-user-plus"></i>
+                        </div>
+                    </div>
+                    <div class="row hrrow">
+                        <hr>
+                    </div>
+                    <div class="row proaddress">
+                        <div class="col-lg-2 col-md-2 col-sm-2 ">
+                            <i id="geticon" class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div class="col-lg-8 col-md-8 col-sm-8">
+                            <span></span>
+                            <p>Somewhere out there .PK</p>
+                        </div>
+                    </div>
+                    <div class="row proaddress">
+                        <div class="col-lg-2 col-md-2 col-sm-2">
+                            <i id="geticon" class="fa-solid fa-suitcase"></i>
+                        </div>
+                        <div class="col-lg-8 col-md-8 col-sm-8">
+                            <p>Some Degernate</p>
+                        </div>
+                    </div>
+                    <div class="row hrrow">
+                        <hr>
+                    </div>
+                    <div class="row contentrow2">
+                        <div class="col-lg-8 col-md-8 col-sm-8">
+                            <p>Whose Viewed your's Profile</p>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4">
+                            <h6>2500</h6>
+                        </div>
+                    </div>
+                    <div class="row contentrow2">
+                        <div class="col-lg-8 col-md-8 col-sm-8">
+                            <p>Impression of your Post</p>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4">
+                            <h6>6400</h6>
+                        </div>
+                    </div>
+                    <div class="row hrrow">
+                        <hr>
+                    </div>
+                    <div class="row profilerow1">
+                        <div class="col-lg-2 col-md-2 col-sm-2 profilepic">
+                            <i id="geticon" class="fa-brands fa-linkedin"></i>
+                        </div>
+                        <div class="col-lg-7 col-md-7 col-sm-7 procon">
+                            <h6>Linkedin</h6>
+                            <p>Social Network</p>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-2 proicon">
+                            <i id="geticon" class="fa-regular fa-pen-to-square"></i>
+                        </div>
+                    </div>
+                    <div class="row profilerow2">
+                        <div class="col-lg-2 col-md-2 col-sm-2 profilepic">
+                            <i id="geticon" class="fa-brands fa-twitter"></i>
+                        </div>
+                        <div class="col-lg-7 col-md-7 col-sm-7 procon">
+                            <h6>Twitter</h6>
+                            <p>Social Network</p>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-2 proicon">
+                            <i id="geticon" class="fa-regular fa-pen-to-square"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-12 maincontent-section">
+                    <div class="mainsec">
+                        <div class="row profilerow">
+                            <div class="col-lg-2 col-md-2 col-sm-2 profilepic">
+                                <img src="./imgs/avatar.png" alt="">
+                            </div>
+                            <div class="col-lg-10 col-md-10 col-sm-10 proinput">
+                                <form method="post">
+                                    <input class="form-control" type="text" placeholder="What is your mine ...">
+                                </form>
+                            </div>
+                        </div>
+                        <div class="row hrrow">
+                            <hr>
+                        </div>
+                        <div class="row hrrow1">
+                            <ul>
+                                <li><i id="geticon" class="fa-regular fa-images"></i> <span>image</span></li>
+                                <li><i id="geticon" class="fa-regular fa-file-video"></i> <span>clip</span></li>
+                                <li><i id="geticon" class="fa-solid fa-audio-description"></i><span>audio</span></li>
+                                <li><i id="geticon" class="fa-sharp fa-solid fa-link"></i><span>attachment</span></li>
+                                <li><button class="btn btn-sm btn-info">Post</button></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="mainsec1">
+                        <div class="row profilerow1">
+                            <div class="col-lg-2 col-md-2 col-sm-2 profilepic1">
+                                <img src="./imgs/4.jpg" alt="">
+                            </div>
+                            <div class="col-lg-8 col-md-8 col-sm-8 procon1">
+                                <h6>Muhammad Abdullah</h6>
+                                <p>Lorem </p>
+                            </div>
+                            <div class="col-lg-2 col-md-2 col-sm-2 proicon2">
+                                <i id="geticon" class="fa-solid fa-person-circle-plus"></i>
+                            </div>
+                        </div>
+                        <div class="row hrrow3">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, similique.</p>
+                            <div class="row mainpic">
+                                <img src="./imgs/pic (2).jpg" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                        <div class="row shares">
+                            <div class="likecomment">
+                                <div class="comment1">
+                                    <i class="fa-solid fa-thumbs-up"></i>
+                                    <i class="fa-solid fa-heart heart" onclick="heartclick()"></i>
+                                </div>
+                                <div class="comment2">
+                                    <i class="fa-solid fa-comment commenticon"></i>
+                                    <i class="fa-solid fa-share-nodes shareicon "></i>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <!-------------------------------------- Home Body End -------------------------------------->
+    </div>
+
+    <!-- Attached JS file -->
+    <script src="./socialmenia.js"></script>
+
+
+    <!-- Boostrap 5 JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
